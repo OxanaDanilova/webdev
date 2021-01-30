@@ -162,8 +162,7 @@ main {
 
 .third-wrapper {
   height: 504px;
-  background-color: #F5F6F7;
-  ;
+  background-color: #f5f6f7;
   display: flex;
   justify-content: space-between;
 }
@@ -174,39 +173,85 @@ main {
   margin: 155px 0 0 269px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
+  
 }
 
 .user-picture {
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    background-image: url(./assets/images/userpic.png);
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-image: url(./assets/images/userpic.png);
 }
 
 .user-card-titel {
-  width: 160px;
-  height: 20px;
+  margin-top: 20px;
   font-family: "Roboto";
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 20px;
-  letter-spacing: 2.4000000953674316px;
   text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
   color: #373737;
 }
 
 .user-card-text {
   height: 80px;
+  margin-top: 10px;
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.slider-nav-items {
+  width: 83px;
+  height: 18px;
+  margin: 82px 269px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow,
+.divider-icon {
+  width: 9px;
+  height: 14px;
+}
+
+.slide-num {
+  width: 20px;
+  font-family: "Roboto";
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   letter-spacing: 0px;
   text-align: center;
-  color: #4E4E4E;
+  color: #373737;
+}
 
+.slider-items {
+  height: 244px;
+  width: 894px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-img {
+  width: 407px;
+  height: 244px;
+  margin-right: 30px;
 }
