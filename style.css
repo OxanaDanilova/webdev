@@ -302,3 +302,60 @@ main {
 .forth-section-content-text span {
   font-weight: 400;
 }
+
+.fifth-section {
+  height: 524px;
+  background-image: url(./assets/images/fifth-sec-bg.png);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth-sec-form {
+  width: 406px;
+  height: 104px;
+}
+
+.newsletter {
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.form-field {
+  display: flex;
+  margin-top: 30px;
+}
+
+.form-field input {
+  width: 340px;
+  height: 46px;
+  background: #ffffff;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
+  opacity: 1;
+  padding-left: 24px;
+}
+
+.form-field button {
+  width: 66px;
+  height: 48px;
+  background: #00afdb;
+  background-image: url(./assets/images/check-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
