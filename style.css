@@ -6,6 +6,9 @@
 body {
   width: 1600px;
   margin: 0 auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
 }
 
 .first-wrapper {
@@ -31,9 +34,6 @@ header {
 
 .navbar li a {
   color: #fff;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0px;
@@ -54,9 +54,7 @@ main {
 
 .logo-text {
   margin-top: 135px;
-  font-family: "Roboto";
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 75px;
   letter-spacing: 4.5px;
@@ -74,9 +72,7 @@ main {
   margin-top: 20px;
   width: 504px;
   height: 50px;
-  font-family: "Roboto";
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0px;
@@ -90,9 +86,7 @@ main {
   width: 184px;
   height: 46px;
   background: #00afdb;
-  font-family: "Roboto";
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 16px;
   text-align: center;
@@ -133,8 +127,6 @@ main {
 .content-titel {
   width: 367px;
   height: 57px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -147,9 +139,6 @@ main {
   width: 407px;
   height: 80px;
   margin-top: 20px;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-style: normal;
   line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
@@ -186,8 +175,6 @@ main {
 
 .user-card-titel {
   margin-top: 20px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -200,10 +187,7 @@ main {
 .user-card-text {
   height: 80px;
   margin-top: 10px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 140%;
   text-align: center;
   color: #4e4e4e;
@@ -224,17 +208,21 @@ main {
   align-items: center;
 }
 
-.arrow,
+.arrow-left,
+.arrow-right,
 .divider-icon {
   width: 9px;
   height: 14px;
 }
 
+.arrow-left,
+.arrow-right {
+  cursor: pointer;
+}
+
 .slide-num {
   width: 20px;
-  font-family: "Roboto";
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0px;
@@ -276,8 +264,6 @@ main {
 }
 
 .forth-section-content-titel {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -290,9 +276,6 @@ main {
   width: 407px;
   height: 60px;
   margin-top: 20px;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0px;
@@ -321,8 +304,6 @@ main {
 
 .newsletter {
   height: 28px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -342,10 +323,7 @@ main {
   height: 46px;
   background: #ffffff;
   border: none;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 140%;
   color: #373737;
   opacity: 1;
@@ -359,6 +337,7 @@ main {
   background-image: url(./assets/images/check-icon.png);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .sixth-section {
@@ -372,8 +351,6 @@ main {
 .sixth-section-titel {
   height: 28px;
   margin-top: 120px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -387,10 +364,7 @@ main {
   margin-top: 20px;
   width: 480px;
   height: 40px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 140%;
   text-align: center;
   color: #4e4e4e;
@@ -407,10 +381,7 @@ main {
   width: 186px;
   height: 46px;
   background-color: #00afdb;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   color: #ffffff;
@@ -419,6 +390,7 @@ main {
   text-align: left;
   padding-left: 18px;
   border: none;
+  cursor: pointer;
 }
 
 .sixth-section-buttons button:first-child {
@@ -438,11 +410,8 @@ footer {
 }
 
 .copyright {
-  margin: 0 160px 0  66px;
-  font-family: "Roboto";
-  font-style: normal;
+  margin: 0 160px 0 66px;
   font-weight: normal;
-  font-size: 14px;
   line-height: 140%;
   text-align: center;
   color: #818181;
@@ -453,22 +422,14 @@ footer {
   height: 20px;
   margin-left: 160px;
   display: flex;
-  justify-content: space-between;;
-  font-family: "Roboto";
-  font-style: normal;
+  justify-content: space-between;
   font-weight: normal;
-  font-size: 14px;
   line-height: 140%;
-  
 }
 
 .footer-nav li a {
   color: #ffffff;
   list-style: none;
   text-decoration: none;
-
 }
 
-footer a {
-  margin-right: 15px;
-}
